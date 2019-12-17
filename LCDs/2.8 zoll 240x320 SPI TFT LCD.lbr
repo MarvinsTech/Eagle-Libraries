@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.3.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="2,8ZOLL240X320SPITFTLCD">
+<wire x1="0" y1="10" x2="0" y2="3.6" width="0.15" layer="21"/>
+<wire x1="0" y1="3.6" x2="0" y2="-31" width="0.15" layer="21"/>
+<wire x1="0" y1="-31" x2="0" y2="-65.6" width="0.15" layer="21"/>
+<wire x1="0" y1="-65.6" x2="0" y2="-76" width="0.15" layer="21"/>
+<wire x1="0" y1="-76" x2="50" y2="-76" width="0.15" layer="21"/>
+<wire x1="0" y1="10" x2="50" y2="10" width="0.15" layer="21"/>
+<wire x1="50" y1="10" x2="50" y2="3.6" width="0.15" layer="21"/>
+<pad name="VCC" x="8.49" y="-74.01" drill="0.9" diameter="1.6764" shape="square"/>
+<pad name="GND" x="11.03" y="-74.01" drill="0.9" diameter="1.6764"/>
+<pad name="CS" x="13.57" y="-74.01" drill="0.9" diameter="1.6764"/>
+<pad name="RESET" x="16.11" y="-74.01" drill="0.9" diameter="1.6764"/>
+<pad name="D/C" x="18.65" y="-74.01" drill="0.9" diameter="1.6764"/>
+<pad name="SDI(MOSI)" x="21.19" y="-74.01" drill="0.9" diameter="1.6764"/>
+<pad name="SCK" x="23.73" y="-74.01" drill="0.9" diameter="1.6764"/>
+<pad name="LED" x="26.27" y="-74.01" drill="0.9" diameter="1.6764"/>
+<pad name="SD0(MISO)" x="28.81" y="-74.01" drill="0.9" diameter="1.6764"/>
+<pad name="T_CLK" x="31.35" y="-74.01" drill="0.9" diameter="1.6764"/>
+<pad name="T_CS" x="33.89" y="-74.01" drill="0.9" diameter="1.6764"/>
+<pad name="T_DIN" x="36.43" y="-74.01" drill="0.9" diameter="1.6764"/>
+<pad name="T_D0" x="38.97" y="-74.01" drill="0.9" diameter="1.6764"/>
+<pad name="T_IRQ" x="41.51" y="-74.01" drill="0.9" diameter="1.6764"/>
+<wire x1="50" y1="3.6" x2="50" y2="-65.6" width="0.15" layer="21"/>
+<wire x1="50" y1="-65.6" x2="50" y2="-76" width="0.15" layer="21"/>
+<wire x1="7.22" y1="-72.74" x2="7.22" y2="-75.28" width="0.127" layer="21"/>
+<wire x1="7.22" y1="-75.28" x2="42.78" y2="-75.28" width="0.127" layer="21"/>
+<wire x1="42.78" y1="-75.28" x2="42.78" y2="-72.74" width="0.127" layer="21"/>
+<wire x1="42.78" y1="-72.74" x2="7.22" y2="-72.74" width="0.127" layer="21"/>
+<wire x1="0" y1="3.6" x2="50" y2="3.6" width="0.15" layer="21"/>
+<wire x1="0" y1="-65.6" x2="50" y2="-65.6" width="0.15" layer="21"/>
+<pad name="SD_CS" x="21.19" y="6.99" drill="0.9" diameter="1.6764" shape="square"/>
+<pad name="SD_MOSI" x="23.73" y="6.99" drill="0.9" diameter="1.6764"/>
+<pad name="SD_MISO" x="26.27" y="6.99" drill="0.9" diameter="1.6764"/>
+<pad name="SD_SCK" x="28.81" y="6.99" drill="0.9" diameter="1.6764"/>
+<wire x1="19.92" y1="8.26" x2="19.92" y2="5.72" width="0.15" layer="21"/>
+<wire x1="19.92" y1="5.72" x2="30.08" y2="5.72" width="0.15" layer="21"/>
+<wire x1="30.08" y1="5.72" x2="30.08" y2="8.26" width="0.15" layer="21"/>
+<wire x1="30.08" y1="8.26" x2="19.92" y2="8.26" width="0.15" layer="21"/>
+<text x="44.37" y="-34.83" size="2.54" layer="21" ratio="14" rot="R180">240x320 SPI TFT display</text>
+<text x="8" y="-76.5" size="0.8128" layer="21" ratio="14" rot="R270">VCC</text>
+<text x="10.5" y="-76.5" size="0.8128" layer="21" ratio="14" rot="R270">GND</text>
+<wire x1="9.8" y1="-72.8" x2="9.8" y2="-75.2" width="0.127" layer="21"/>
+<wire x1="22.5" y1="8.2" x2="22.5" y2="5.8" width="0.127" layer="21"/>
+<wire x1="0" y1="-33" x2="1" y2="-33" width="0.127" layer="51"/>
+<text x="1.5" y="-33" size="0.8128" layer="51">M</text>
+<wire x1="25" y1="10" x2="25" y2="9" width="0.127" layer="51"/>
+<text x="25.5" y="9" size="0.8128" layer="51">M</text>
+<wire x1="0" y1="-31" x2="1" y2="-31" width="0.127" layer="51"/>
+<text x="1.5" y="-31" size="0.8128" layer="51">D M</text>
+</package>
+</packages>
+<symbols>
+<symbol name="2,8ZOLL240X320SPITFTLCD">
+<wire x1="-5.08" y1="15.24" x2="22.86" y2="15.24" width="0.254" layer="94"/>
+<wire x1="22.86" y1="15.24" x2="22.86" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-22.86" x2="-5.08" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-22.86" x2="-5.08" y2="15.24" width="0.254" layer="94"/>
+<pin name="VCC" x="-7.62" y="12.7" visible="pin" length="short"/>
+<pin name="GND" x="-7.62" y="10.16" visible="pin" length="short"/>
+<pin name="CS" x="-7.62" y="7.62" visible="pin" length="short"/>
+<pin name="RESET" x="-7.62" y="5.08" visible="pin" length="short"/>
+<pin name="D/C" x="-7.62" y="2.54" visible="pin" length="short"/>
+<pin name="SDI(MOSI)" x="-7.62" y="0" visible="pin" length="short"/>
+<pin name="SCK" x="-7.62" y="-2.54" visible="pin" length="short"/>
+<pin name="LED" x="-7.62" y="-5.08" visible="pin" length="short"/>
+<pin name="SD0(MISO)" x="-7.62" y="-7.62" visible="pin" length="short"/>
+<pin name="T_CLK" x="-7.62" y="-10.16" visible="pin" length="short"/>
+<pin name="T_CS" x="-7.62" y="-12.7" visible="pin" length="short"/>
+<pin name="T_DIN" x="-7.62" y="-15.24" visible="pin" length="short"/>
+<pin name="T_D0" x="-7.62" y="-17.78" visible="pin" length="short"/>
+<pin name="T_IRQ" x="-7.62" y="-20.32" visible="pin" length="short"/>
+<pin name="SD_CS" x="25.4" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="SD_MOSI" x="25.4" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="SD_MISO" x="25.4" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="SD_SCK" x="25.4" y="-7.62" visible="pin" length="short" rot="R180"/>
+<text x="-2.54" y="17.78" size="1.778" layer="94" ratio="14">3,8 zoll TFT display</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="2,8ZOLL240X320SPITFTLCD">
+<gates>
+<gate name="G$1" symbol="2,8ZOLL240X320SPITFTLCD" x="-7.62" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="2,8ZOLL240X320SPITFTLCD">
+<connects>
+<connect gate="G$1" pin="CS" pad="CS"/>
+<connect gate="G$1" pin="D/C" pad="D/C"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="LED" pad="LED"/>
+<connect gate="G$1" pin="RESET" pad="RESET"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SD0(MISO)" pad="SD0(MISO)"/>
+<connect gate="G$1" pin="SDI(MOSI)" pad="SDI(MOSI)"/>
+<connect gate="G$1" pin="SD_CS" pad="SD_CS"/>
+<connect gate="G$1" pin="SD_MISO" pad="SD_MISO"/>
+<connect gate="G$1" pin="SD_MOSI" pad="SD_MOSI"/>
+<connect gate="G$1" pin="SD_SCK" pad="SD_SCK"/>
+<connect gate="G$1" pin="T_CLK" pad="T_CLK"/>
+<connect gate="G$1" pin="T_CS" pad="T_CS"/>
+<connect gate="G$1" pin="T_D0" pad="T_D0"/>
+<connect gate="G$1" pin="T_DIN" pad="T_DIN"/>
+<connect gate="G$1" pin="T_IRQ" pad="T_IRQ"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
